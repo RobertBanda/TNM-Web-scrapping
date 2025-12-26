@@ -1,0 +1,60 @@
+======================================================================
+TNM PREDICTIVE ANALYSIS SUMMARY
+======================================================================
+Generated: 2025-12-26 13:44:59
+
+CURRENT STATE
+----------------------------------------------------------------------
+Total Customers: 10,000,001
+Churned Customers: 1,205,563
+Current Churn Rate: 12.06%
+Monthly Revenue: MWK 302,534,095,000
+Average Downtime: 5.20 hours
+
+SCENARIO PREDICTIONS
+----------------------------------------------------------------------
+
+1. Fix Network Downtime in Southern Region:
+   - Churn Rate Reduction: 1.96 percentage points
+   - Customers Retained: ~195,631
+   - Monthly Revenue Increase: MWK 5,918,515,797
+   - Annual Revenue Increase: MWK 71,022,189,568
+
+2. Fix All Network Downtime:
+   - Churn Rate Reduction: 3.80 percentage points
+   - Customers Retained: ~380,252
+   - Monthly Revenue Increase: MWK 11,503,911,393
+   - Annual Revenue Increase: MWK 138,046,936,716
+
+3. Customer Plan Upgrades:
+   - Churn Rate Reduction: 0.84 percentage points
+   - Customers Retained: ~83,675
+   - Monthly Revenue Increase: MWK 85,028,807,948
+   - Annual Revenue Increase: MWK 1,020,345,695,373
+
+4. Combined Improvements (All Fixes):
+   - Churn Rate Reduction: 3.97 percentage points
+   - Customers Retained: ~397,102
+   - Monthly Revenue Increase: MWK 94,511,053,519
+   - Annual Revenue Increase: MWK 1,134,132,642,224
+
+5-YEAR FORECAST
+----------------------------------------------------------------------
+
+Without Improvements:
+  Year 5 Customers: 15,228
+  Year 5 Monthly Revenue: MWK 460,703,779
+  5-Year Revenue Growth: -99.8%
+
+With Improvements:
+  Year 5 Customers: 212,615 (+197,387 vs no improvements)
+  Year 5 Monthly Revenue: MWK 9,184,301,355 (+MWK 8,723,597,575 vs no improvements)
+  5-Year Revenue Growth: -97.7%
+  5-Year Cumulative Additional Revenue: MWK 523,415,854,526
+
+KEY RECOMMENDATIONS
+----------------------------------------------------------------------
+1. PRIORITY: Fix Network Downtime - Highest impact on customer retention
+2. PRIORITY: Customer Plan Upgrades - Increases revenue per customer
+3. STRATEGIC: Combined Improvement Program - Maximum business impact
+   Expected 5-year cumulative benefit: MWK 523.42 billion

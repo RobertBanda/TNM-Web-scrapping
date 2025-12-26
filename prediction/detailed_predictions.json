@@ -1,0 +1,124 @@
+{
+  "current_state": {
+    "total_customers": 10000001,
+    "churned_customers": 1205563,
+    "churn_rate_percent": 12.055628794437121,
+    "monthly_revenue_mwk": 302534095000.0,
+    "average_downtime_hours": 5.195854356748774,
+    "southern_downtime_hours": 7.9849333940738,
+    "other_regions_downtime_hours": 4.000921389192946
+  },
+  "scenario_1_fix_southern_downtime": {
+    "churn_rate_percent": 10.09931514412305,
+    "churn_reduction_percentage_points": 1.9563136503140708,
+    "customers_retained": 195631.38459454358,
+    "monthly_revenue_increase_mwk": 5918515797.339139,
+    "annual_revenue_increase_mwk": 71022189568.06967
+  },
+  "scenario_2_fix_all_downtime": {
+    "churn_rate_percent": 8.253111463944073,
+    "churn_reduction_percentage_points": 3.802517330493048,
+    "customers_retained": 380251.7710744781,
+    "monthly_revenue_increase_mwk": 11503911393.025303,
+    "annual_revenue_increase_mwk": 138046936716.30365
+  },
+  "scenario_3_customer_upgrades": {
+    "churn_rate_percent": 11.218882460848405,
+    "churn_reduction_percentage_points": 0.8367463335887155,
+    "customers_retained": 83674.64172633488,
+    "monthly_revenue_increase_mwk": 85028807947.7683,
+    "annual_revenue_increase_mwk": 1020345695373.2195
+  },
+  "scenario_4_combined_improvements": {
+    "churn_rate_percent": 8.084609092115718,
+    "churn_reduction_percentage_points": 3.971019702321403,
+    "customers_retained": 397102.00994233735,
+    "monthly_revenue_increase_mwk": 94511053518.68976,
+    "annual_revenue_increase_mwk": 1134132642224.277
+  },
+  "forecast_5year_no_improvements": {
+    "year_1": {
+      "customers": 2465448.707836109,
+      "monthly_revenue_mwk": 74588221900.58948
+    },
+    "year_5": {
+      "customers": 15228.162151200724,
+      "monthly_revenue_mwk": 460703779.4222985
+    },
+    "customer_growth_percent": -99.82684325989676,
+    "revenue_growth_percent": -99.84771839371615
+  },
+  "forecast_5year_with_improvements": {
+    "year_1": {
+      "customers": 4327424.786606193,
+      "monthly_revenue_mwk": 186930918566.7456
+    },
+    "year_5": {
+      "customers": 212615.3000018348,
+      "monthly_revenue_mwk": 9184301354.861195
+    },
+    "customer_growth_percent": -97.68683702870409,
+    "revenue_growth_percent": -97.68683702870409,
+    "additional_customers_vs_no_improvements": 197387.13785063408,
+    "additional_monthly_revenue_vs_no_improvements_mwk": 8723597575.438896,
+    "additional_annual_revenue_vs_no_improvements_mwk": 104683170905.26675,
+    "cumulative_5year_additional_revenue_mwk": 523415854526.33374
+  },
+  "detailed_forecast_by_year": {
+    "no_improvements": {
+      "customers_by_year": [
+        2465448.707836109,
+        691168.3647062766,
+        193763.39359744027,
+        54319.9813758137,
+        15228.162151200724
+      ],
+      "revenue_by_year_mwk": [
+        74588221900.58948,
+        20910197479.884586,
+        5862002706.412768,
+        1643364476.2584178,
+        460703779.4222985
+      ]
+    },
+    "with_improvements": {
+      "customers_by_year": [
+        4327424.786606193,
+        2037374.070447106,
+        959206.2964970839,
+        451599.30745449173,
+        212615.3000018348
+      ],
+      "revenue_by_year_mwk": [
+        186930918566.7456,
+        88008047564.80339,
+        41434645994.11957,
+        19507646586.453903,
+        9184301354.861195
+      ]
+    }
+  },
+  "scenario_comparison": {
+    "scenarios": [
+      "Current",
+      "Fix Southern Downtime",
+      "Fix All Downtime",
+      "Customer Upgrades",
+      "Combined Improvements"
+    ],
+    "churn_rates_percent": [
+      12.055628794437121,
+      10.09931514412305,
+      8.253111463944073,
+      11.218882460848405,
+      8.084609092115718
+    ],
+    "revenue_increases_mwk": [
+      0.0,
+      5918515797.339139,
+      11503911393.025303,
+      85028807947.7683,
+      94511053518.68976
+    ]
+  }
+}
